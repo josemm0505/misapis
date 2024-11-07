@@ -21,7 +21,7 @@ const jujutsuSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  género:{
+  genero:{
     type: String,
     required: true
   },

@@ -2,7 +2,7 @@ import Ejemplo from '../models/ejemplo.model.js'
 import mongoose from 'mongoose';
 import express from 'express';
 
-export const getAllJujutsu = async (req, res) =>{
+export const getAllEjemplos = async (req, res) =>{
     console.log('Obtiene todos los ejemplos');
     try{
         const ejemplos = await Ejemplo.find({}, {__v:0});
