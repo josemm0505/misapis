@@ -10,7 +10,6 @@ ejemplo.post("/", postEjemplo);
 
 ejemplo.put("/:id", putEjemplo);
 
-
 ejemplo.delete("/:id", deleteEjemplo);
 
 export default ejemplo;
