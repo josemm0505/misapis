@@ -26,7 +26,7 @@ const jujutsuSchema = new mongoose.Schema({
     required: true
   },
   edad:{
-    type: Number,
+    type: String,
     required: false
   },
   afiliacion:{
@@ -34,7 +34,7 @@ const jujutsuSchema = new mongoose.Schema({
     required: true
   },
   ocupacion:{
-    type: [String],
+    type: String,
     required: false
   },
   grado:{
